@@ -121,3 +121,9 @@ body{
 .section__card:hover img{
     border-color: var(--white);
 }
+.section__card::before {
+
+  border-radius: 50%;
+
+  transition: 0.5s;
+}
